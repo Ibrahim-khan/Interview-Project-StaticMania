@@ -1,0 +1,24 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+ .header_bg_image img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+ }
+
+ .circleLine{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+ .circleLine img {
+    position: relative;
+    height: 100vh;
+    width: 50%;
+ }
