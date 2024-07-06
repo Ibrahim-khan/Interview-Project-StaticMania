@@ -3,13 +3,49 @@
     padding: 0;
  }
 
- .header_bg_image img{
+                              /*Navigation Bar start*/
+
+ .navigation{
+    display: flex;
+    margin-top:-580px;
+    position: relative;
+    margin-left: 60px;
+    margin-right: 60px;
+ }
+
+ .navigation ul{
+    display: flex;
+ }
+
+ .navigation ul li{
+    margin: 10px;
+    list-style-type: none;
+ }
+
+ .navigation ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 18px;
+ }
+
+ .navigation img{
+    margin:auto;
+    height: 35px;
+ }
+
+                                 /*Navigation Bar End*/
+
+                                 /*Coverphoto start*/
+
+ .header_bg_color{       /*Background color*/
     height: 100vh;
     width: 100%;
+    background-color: #1D3B38;
     position: absolute;
  }
 
- .circleLine{
+ .circleLine{               /*Circle Line*/
     margin: auto;
     display: flex;
     justify-content: center;
@@ -17,8 +53,195 @@
     height: 100vh;
  }
 
- .circleLine img {
+ .circleLine img {          
     position: relative;
     height: 100vh;
     width: 50%;
  }
+
+ .center_image {            /*Circle Image*/
+    margin: auto;
+    margin-top: -600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+ .center_image img {   
+    position: relative;
+    height: 50vh;
+    width: auto;
+ }
+
+                                 /*Coverphoto end*/
+
+                                 /*Title Start*/
+.title{
+   text-align: center;
+   margin-top: 25px;
+   position: relative;
+}
+.cosy{
+   font-size: 130px;
+   color: #ffffff;
+}
+.cabin{
+   font-size: 110px;
+   color:#75FF69;
+   margin-left: 240px;
+   margin-top: -45px;
+}
+.inThe{
+   font-size: 20px;
+   color: #ffffff;
+}
+.woods{
+   font-size: 130px;
+   color: #ffffff;
+   margin-top: -30px;
+}
+.title p{
+   width: 30%;
+   margin: auto;
+   color: #ffffff;
+   font-size: 14px;
+}
+                                 /*Title End*/
+
+                                 /*info start*/
+.info{
+   height: 100vh;
+   width: 100%;
+   color: #f9f9f9;
+}
+
+.icon{
+   margin-top: 140px;
+   margin-left: 80px;
+   width: 50%;
+   float: left;
+}
+.icon img{
+   height: 276px;
+   width:200px;
+}
+.infoP{
+   width: 40%;
+   color: #1B3936;
+   margin-left: 80px;
+   margin-top: 40px;
+   float: left;
+}
+
+.infoCal{
+   float: right;
+   color: #1B3936;
+   margin-top: -250px;
+}
+
+
+@media only screen and (max-width:800px){
+	.infoCal{
+      margin-right: 100px;
+   }
+}
+@media only screen and (min-width:800px){
+	.infoCal{
+      margin-right: 300px;
+   }
+}
+
+.infoCal h1{
+   font-size: 50px;
+}
+
+
+.Denseforst{
+
+}
+.Livingspace{
+   margin-top: 50px;
+}
+.Proximity{
+   margin-top: 50px;
+}
+                              /*info end*/
+
+                              /*Forest image start*/
+.forest img{
+   width: 100%;
+   height: 90vh;
+}
+                              /*Forest image end*/
+                              /*About Us start*/
+.aboutUs{
+   height: 200vh;
+   width: 100%;
+   background-color: #1D3B38;
+   margin-top: -4px;
+   position: absolute;
+}
+.aboutUsTitle{
+   color: #75FF69;
+}
+.aboutUsTitle p{
+   text-align: center;
+   margin-top: 140px;
+   font-size: 24px;
+}
+.aboutUsText{
+   color: #4B6B67;
+   text-align: center;
+   margin-top: 40px;
+   font-size: 60px;
+}
+.aboutUsText p span{
+   color:#AAB5B3;
+}
+
+                                 /*About Us Image start*/
+.image{
+   margin-top:-110vh;
+   width: 100%;
+}
+.imageFirstColum{
+   float: left;
+   padding-left: 80px;
+}
+.imageFirst img{
+   height:250px;
+   width:350px;
+}
+.imageThird img{
+   height:320px;
+   width:250px;
+   margin-left: 100px;
+   margin-top: 220px;
+}
+.imageSecondColum{
+   float:right;
+}
+
+.imageSecond img{
+   height:350px;
+   width:250px;
+   margin-top: -155px;
+   padding-right: 100px;
+}
+
+.imageFourth{
+   float: right;
+   margin-top: 500px;
+   text-align: right;
+}
+.imageFourth img{
+   height:350px;
+   width:250px;
+   margin-right: -120px;
+}
+
+
+
+
+                              /*About Us end*/
