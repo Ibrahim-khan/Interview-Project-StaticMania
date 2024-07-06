@@ -195,6 +195,7 @@
    text-align: center;
    margin-top: 40px;
    font-size: 60px;
+   text-transform: capitalize;
 }
 .aboutUsText p span{
    color:#AAB5B3;
@@ -241,7 +242,132 @@
    margin-right: -120px;
 }
 
-
-
-
                               /*About Us end*/
+                        /*Intersect*/
+.intersect img{
+   margin-top: 185vh;
+   width: 100%;
+   position: absolute;
+}
+
+                           /*Uniq rooms start*/
+.uniqRooms{          /*Uniq rooms text*/
+   height: 160vh;
+   width: 100%;                          
+   background-color: #F9F9F9;                           
+   margin-top: 200vh;                           
+   position: absolute;                           
+}
+
+.uniqRooms h1{
+   color: #1D3B38;
+   font-size: 60px;
+   text-transform: capitalize;
+   margin-left: 100px;
+   margin-top:100px;
+}
+
+                           /*Uniq rooms picture start*/
+.uniqRoomsPicture{
+   position: relative;
+   display: flex;
+   margin-top: 270vh;
+   width: 100%;
+}
+
+
+.Majestic1 img{
+   padding-left: 130px;
+   height: 400px;
+   width: 300px;
+}
+.Majestic1 h1{
+   color:#f9f9f9;
+   margin-top: -70px;
+   margin-left: 150px;
+   font-size: 24px;
+}
+
+.CozyCabinRooms img{
+   height: 550px;
+   width:400px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top:-75px;
+}
+
+.CozyCabinRooms h1{
+   color:#f9f9f9;
+   margin-top: -140px;
+   margin-left: 90px;
+   font-size: 40px;
+}
+
+.CozyCabinRooms p{
+   color:#f9f9f9;
+   margin-top: 20px;
+   margin-left: 80px;
+   font-size: 15px;
+}
+
+.CozyCabinLogo{
+   margin-top: -70px;
+}
+
+.CozyCabinLogo img{
+   height: 30px;
+   width: 30px;
+   margin-left: 380px;
+}
+
+.Majestic2 img{
+   height: 400px;
+   width: 300px;
+}
+
+.Majestic2 h1{
+   color:#f9f9f9;
+   margin-left:20px;
+   margin-top: -70px;
+   font-size: 24px;
+}
+                           /*Uniq rooms picture end*/
+                           
+                           /*Uniq rooms end*/
+
+                                 /*Discount part start*/
+.discount{
+   margin-top: 160px;
+   height: 115vh;
+   width: 100%;
+   background-color: #1D3B38;
+   position: absolute;
+}
+.discountBgImage{
+   position: relative;
+   margin-top:80px;
+   margin-left: 80px;
+   margin-right: 80px;
+}
+.discountBgImage img{
+   height:550px;
+   width: 100%;
+}
+.discountBgImage h1{
+   text-align: center;
+   text-transform: capitalize;
+   margin-top: -440px;
+   font-size: 68px;
+   color: #ffffff;
+}
+.discountBgImage h1 span{
+   color:#75FF69;
+}
+.discountBgImage p{
+   text-align: center;
+   color:#ffffff;
+   font-size: 16px;
+   margin-top: 20px;
+}
+                                 /*Discount part end*/
+                              
