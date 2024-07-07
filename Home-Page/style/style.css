@@ -1,3 +1,17 @@
+ @font-face {
+   font-family: "SwitzerVariable";
+   src: url(../font/Switzer-Variable.ttf);
+ }
+
+ @font-face {
+   font-family: "BoskaVariableItalic";
+   src: url(../font/Boska-VariableItalic.ttf);
+ }
+ 
+ @font-face {
+   font-family: "BoskaVariable";
+   src: url(../font/Boska-Variable.ttf);
+ }
  * {
     margin: 0;
     padding: 0;
@@ -6,6 +20,7 @@
                               /*Navigation Bar start*/
 
  .navigation{
+   font-family: "SwitzerVariable",sans-serif;
     display: flex;
     margin-top:-580px;
     position: relative;
@@ -27,7 +42,6 @@
     color: #ffffff;
     margin-left: 20px;
     font-size: 18px;
-    font-family: ;
  }
 
  .navigation ul li a:hover{
@@ -65,6 +79,18 @@
     width: 50%;
  }
 
+
+ .coverPhotoIcon img:hover{
+   width: 60px;
+   height: 60px;
+ }
+
+ .coverPhotoIcon img{
+   width: 50px;
+   height: 50px;
+   margin-left: -25px;
+ }
+
  .center_image {            /*Circle Image*/
     margin: auto;
     margin-top: -600px;
@@ -87,23 +113,25 @@
    text-align: center;
    margin-top: 25px;
    position: relative;
+   font-family: "BoskaVariable";
 }
 .cosy{
-   font-size: 130px;
+   font-size: 110px;
    color: #ffffff;
 }
 .cabin{
    font-size: 110px;
+   font-family: "BoskaVariableItalic";
    color:#75FF69;
    margin-left: 240px;
-   margin-top: -45px;
+   margin-top: -30px;
 }
 .inThe{
-   font-size: 20px;
+   font-size: 16px;
    color: #ffffff;
 }
 .woods{
-   font-size: 130px;
+   font-size: 110px;
    color: #ffffff;
    margin-top: -30px;
 }
@@ -111,15 +139,17 @@
    width: 30%;
    margin: auto;
    color: #ffffff;
-   font-size: 14px;
+   font-size: 12px;
+   font-family: "SwitzerVariable";
 }
                                  /*Title End*/
 
                                  /*info start*/
 .info{
-   height: 100vh;
+   height: 110vh;
    width: 100%;
    color: #f9f9f9;
+   font-family: "SwitzerVariable",sans-serif;
 }
 
 .icon{
@@ -159,7 +189,15 @@
 }
 
 .infoCal h1{
-   font-size: 50px;
+   font-size: 60px;
+   font-family: "BoskaVariable";
+   margin-top: -10px;
+}
+
+.infoCal h1 span{
+   font-size: 20px; 
+   opacity: 90%;
+   font-family: "SwitzerVariable",sans-serif;
 }
 
 
@@ -182,7 +220,7 @@
                               /*Forest image end*/
                               /*About Us start*/
 .aboutUs{
-   height: 200vh;
+   height: 220vh;
    width: 100%;
    background-color: #1D3B38;
    margin-top: -4px;
@@ -195,6 +233,7 @@
    text-align: center;
    margin-top: 140px;
    font-size: 24px;
+   font-family: "SwitzerVariable",sans-serif;
 }
 .aboutUsText{
    color: #4B6B67;
@@ -202,6 +241,7 @@
    margin-top: 40px;
    font-size: 60px;
    text-transform: capitalize;
+   font-family: "BoskaVariable";
 }
 .aboutUsText p span{
    color:#AAB5B3;
@@ -209,7 +249,7 @@
 
                                  /*About Us Image start*/
 .image{
-   margin-top:-110vh;
+   margin-top:-125vh;
    width: 100%;
 }
 .imageFirstColum{
@@ -221,10 +261,10 @@
    width:350px;
 }
 .imageThird img{
-   height:320px;
+   height:350px;
    width:250px;
    margin-left: 100px;
-   margin-top: 220px;
+   margin-top: 260px;
 }
 .imageSecondColum{
    float:right;
@@ -239,11 +279,11 @@
 
 .imageFourth{
    float: right;
-   margin-top: 500px;
+   margin-top: 550px;
    text-align: right;
 }
 .imageFourth img{
-   height:350px;
+   height:380px;
    width:250px;
    margin-right: -120px;
 }
@@ -251,7 +291,7 @@
                               /*About Us end*/
                         /*Intersect*/
 .intersect img{
-   margin-top: 185vh;
+   margin-top: 205vh;
    width: 100%;
    position: absolute;
 }
@@ -261,8 +301,9 @@
    height: 160vh;
    width: 100%;                          
    background-color: #F9F9F9;                           
-   margin-top: 200vh;                           
-   position: absolute;                           
+   margin-top: 220vh;                           
+   position: absolute; 
+   font-family: "BoskaVariable";                         
 }
 
 .uniqRooms h1{
@@ -277,7 +318,7 @@
 .uniqRoomsPicture{
    position: relative;
    display: flex;
-   margin-top: 270vh;
+   margin-top: 290vh;
    width: 100%;
 }
 
@@ -314,6 +355,7 @@
    margin-top: 20px;
    margin-left: 80px;
    font-size: 15px;
+   font-family: "SwitzerVariable",sans-serif;
 }
 
 .CozyCabinLogo{
@@ -365,6 +407,7 @@
    margin-top: -440px;
    font-size: 68px;
    color: #ffffff;
+   font-family: "BoskaVariable";  
 }
 .discountBgImage h1 span{
    color:#75FF69;
@@ -374,6 +417,7 @@
    color:#ffffff;
    font-size: 16px;
    margin-top: 20px;
+   font-family: "SwitzerVariable",sans-serif;
 }
                                  /*Discount part end*/
 
@@ -397,6 +441,7 @@ input[type="text"]
 input[type="submit"]
 {
    font-size: 16px;
+   font-family: "SwitzerVariable",sans-serif;
    height: 41px;
    width: 120px;
    background-color: #75FF69;
@@ -411,6 +456,7 @@ input[type="submit"]
    background-color: #F9F9F9;
    position: relative;
    margin-top: 141vh;
+   font-family: "SwitzerVariable",sans-serif;
 }
 .testimonialText{
    color: #1B3936;
@@ -423,6 +469,7 @@ input[type="submit"]
    margin-top: 100px;
    font-size: 60px;
    text-transform: capitalize;
+   font-family: "BoskaVariable"; 
 }
 .testimonialText p{
    margin-left: 150px;
@@ -504,6 +551,7 @@ input[type="submit"]
    height: 125vh;
    background-color: #ffffff;
    width: 100%;
+   font-family: "SwitzerVariable",sans-serif;
 }
 .footerContent{
    margin-top: 50px;
@@ -512,6 +560,7 @@ input[type="submit"]
 }
 .footerContent h1{
    font-size: 60px;
+   font-family: "BoskaVariable"; 
    text-transform: capitalize;
 }
 .footerContent button{
@@ -546,6 +595,7 @@ input[type="submit"]
 .footerAbout h1{
    margin-top: 80px;
    font-size: 50px;
+   font-family: "BoskaVariable";
 }
 .footerAbout img{
    margin-left: 300px;
@@ -564,6 +614,7 @@ input[type="submit"]
 }
 .footerRooms h1{
    font-size: 50px;
+   font-family: "BoskaVariable";
 }
 .footerRooms img{
    margin-left: 260px;
