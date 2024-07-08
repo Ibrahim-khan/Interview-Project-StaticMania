@@ -52,6 +52,7 @@
  .navigation img{
     margin:auto;
     height: 35px;
+    cursor: pointer;
  }
 
                                  /*Navigation Bar End*/
